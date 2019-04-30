@@ -71,15 +71,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .twin-container {
-	width: 49%;
-	float: left;
-	margin: auto;
-	display: inline-block;
+	width: 48%;
 }
 
 .trio-container {
-	width: 32%;
-	display: inline-block;
+	width: 30%;
 }
 
 /* General */
@@ -89,11 +85,32 @@ a {
 	text-decoration: none;
 }
 
+header, section {
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
 /* Nav */
+
+nav {
+	display: flex;
+	align-items: center;
+}
 
 nav a {
 	padding: 20px;
-	margin-bottom: 20px;
 }
 
 nav a:first-child {
@@ -110,6 +127,7 @@ nav a:first-child {
 	font-size: 75px;
 	text-align: center;
 	padding: 60px 0 30px 0;
+	margin-bottom: 0;
 }
 
 .half-size-img {
