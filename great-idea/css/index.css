@@ -88,6 +88,7 @@ a {
 header, section {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 h2 {
@@ -111,6 +112,11 @@ nav {
 
 nav a {
 	padding: 20px;
+	color: #b0b0b0;
+}
+
+nav a:hover {
+	color: #000;
 }
 
 nav a:first-child {
@@ -140,6 +146,9 @@ button {
 	display: block;
 	margin: 0 auto;
 	padding: 10px 20px;
+	border-radius: 5px;
+	background: #FFF;
+	border: 1px solid black;
 }
 
 header {
@@ -179,4 +188,60 @@ div h4 {
 footer {
 	padding: 40px 0;
 	text-align: center;
+}
+
+/* Services Page */
+
+.services-header-img {
+	width: 100%;
+}
+
+.btm-border-thin h2 {
+	margin: 20px 0;
+}
+
+.btm-border-thin {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.btm-border-thick {
+	border-bottom: 2px solid black;
+}
+
+.box {
+	width: 47%;
+	border: 1px solid black;
+	margin: 2.5% 0;
+	background: #f0f0f0;
+}
+
+.box h4, .box p, .box button {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.box button {
+	display: inline-block;
+	margin: 20px auto 20px 16px;
+}
+
+.box2 {
+	width: 47%;
+	padding-top: 20px;
+}
+
+.box2 h4 {
+	padding: 0;
+}
+
+.box2 ul {
+	padding-top: 30px;
+	list-style-type: square;
+}
+
+.box2 ul li {
+	display: list-item;
+	margin-left: 1.5em;
+	padding: 5px 0;
 }
